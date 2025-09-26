@@ -1,0 +1,57 @@
+Got it 👍
+If you want to automate this process for future CVs, here’s a **precise and reusable prompt** you can use to extract structured JSON skill summaries:
+
+---
+
+### 📌 Prompt Template
+
+**Instruction to AI:**
+You are given an employee CV, linked in profile and carrect path in text format. Extract the information and provide a **JSON summary** with the following structure:
+
+```json
+{
+  "employee": {
+    "name": "<full_name>",
+    "email": "<email>",
+    "phone": "<phone_number>",
+    "location": "<city, country>",
+    "total_experience_years": <number>,
+    "education": "<highest_degree, university, year>"
+  },
+  "skills": {
+    "technical": [
+      {
+        "skill": "<skill_name>",
+        "experience_years": <number>,
+        "expertise_level": "<Beginner | Intermediate | Advanced>",
+        "project_example": "<project_name_or_description>"
+      }
+    ],
+    "managerial": [
+      {
+        "skill": "<skill_name>",
+        "experience_years": <number>,
+        "expertise_level": "<Beginner | Intermediate | Advanced>",
+        "project_example": "<project_name_or_description>"
+      }
+    ]
+  }
+}
+```
+
+**Rules for output:**
+
+1. Separate skills into **technical** and **managerial** categories.
+2. Remove duplicates and keep only **unique skills**.
+3. Infer **expertise_level** based on years of experience:
+
+   * `0–1 years → Beginner`
+   * `2–4 years → Intermediate`
+   * `5+ years → Advanced`
+4. Always include a **project example** if available from the CV.
+5. Output only **valid JSON**, no extra explanation.
+6. Give weightage to his carrer path txt more than linked in & CV.
+
+---
+
+👉 Do you want me to also write a **Python script** that takes CV text files as input and automatically generates this JSON using the prompt? That way, you can batch process all employee CVs in your org.
