@@ -7,6 +7,7 @@
   - Employees = JSON Arra
   - 001 
     - All folder iterate
+    - Extra weightage to career page
     - Text concatenate
     - Chatgpt
     - Response
