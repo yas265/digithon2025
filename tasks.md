@@ -40,133 +40,128 @@
 ```
 {
   "employee": {
-    "name": "Ananya Nanda",
-    "role": "Delivery Manager",
-    "experience": "10 years"
+    "name": "Rohit Verma",
+    "role": "Full Stack Developer",
+    "experience": "5 years"
   },
   "overallScore": {
-    "current": 63,
-    "orgAverage": 76,
-    "status": "Needs Improvement",
+    "current": 72,
+    "orgAverage": 78,
+    "status": "Slightly Below Average",
     "trend": "Improving"
   },
   "scoreHistory": [
     {
       "month": "2025-06",
-      "overallScore": 58,
-      "notes": "Struggled with Scrum and Project Management practices."
+      "overallScore": 65,
+      "notes": "Good backend work, but weak in frontend frameworks."
     },
     {
       "month": "2025-07",
-      "overallScore": 60,
-      "notes": "Started Agile refresher workshops; minor improvements."
+      "overallScore": 68,
+      "notes": "Improved React skills after attending internal training."
     },
     {
       "month": "2025-08",
-      "overallScore": 62,
-      "notes": "Improved in stakeholder management through coaching."
+      "overallScore": 70,
+      "notes": "Better API handling, still missing Flutter exposure."
     },
     {
       "month": "2025-09",
-      "overallScore": 63,
-      "notes": "Maintained performance; identified missing technical awareness."
+      "overallScore": 72,
+      "notes": "Maintained steady improvement; Flutter remains a gap."
     }
   ],
   "skillComparison": [
     {
-      "skill": "People Management",
-      "employeeScore": 80,
-      "orgAverage": 70,
-      "status": "Above Average"
+      "skill": "JavaScript",
+      "employeeScore": 75,
+      "orgAverage": 80,
+      "status": "Below Average"
     },
     {
-      "skill": "OKRs",
-      "employeeScore": 90,
-      "orgAverage": 70,
-      "status": "Above Average"
-    },
-    {
-      "skill": "Agile",
-      "employeeScore": 80,
+      "skill": "React",
+      "employeeScore": 78,
       "orgAverage": 80,
       "status": "On Par"
     },
     {
-      "skill": "Stakeholder Management",
+      "skill": "Node.js",
+      "employeeScore": 82,
+      "orgAverage": 80,
+      "status": "Above Average"
+    },
+    {
+      "skill": "Databases (SQL/NoSQL)",
+      "employeeScore": 76,
+      "orgAverage": 78,
+      "status": "On Par"
+    },
+    {
+      "skill": "DevOps (CI/CD, Docker)",
       "employeeScore": 70,
-      "orgAverage": 80,
-      "status": "Slightly Below Average"
-    },
-    {
-      "skill": "Project Management",
-      "employeeScore": 60,
-      "orgAverage": 80,
+      "orgAverage": 78,
       "status": "Below Average"
     },
     {
-      "skill": "Scrum",
-      "employeeScore": 60,
-      "orgAverage": 80,
-      "status": "Below Average"
-    },
-    {
-      "skill": "Technical Awareness",
+      "skill": "Flutter",
       "employeeScore": 0,
-      "orgAverage": 70,
+      "orgAverage": 75,
       "status": "Missing"
     }
   ],
   "learningResources": [
     {
-      "topic": "Project Management Fundamentals",
-      "article": "Project Management is the backbone of successful delivery. Strong project managers break down complex goals into achievable tasks, track dependencies, and mitigate risks early. A weak score here indicates a need to sharpen planning and execution abilities. Even 30 minutes of daily review of project tracking tools like Jira or MS Project can boost efficiency significantly.",
+      "topic": "JavaScript Advanced Concepts",
+      "article": "JavaScript is the foundation of web development. Mastering asynchronous programming, closures, and ES6+ features is essential for scalable applications. Improving in these areas helps close the gap with high-performing peers.",
       "quiz": [
         {
-          "question": "What is the primary goal of project management?",
-          "options": ["Deliver features fast", "Ensure team harmony", "Deliver value within scope, time, and cost", "Create documentation"],
-          "answer": "Deliver value within scope, time, and cost"
+          "question": "What is the difference between 'let', 'var', and 'const' in JavaScript?",
+          "options": ["Scope and mutability", "Nothing, they are the same", "Only const is block-scoped", "var cannot be reassigned"],
+          "answer": "Scope and mutability"
         },
         {
-          "question": "Which of these is NOT a project management knowledge area?",
-          "options": ["Risk Management", "Cost Management", "Sleep Management", "Scope Management"],
-          "answer": "Sleep Management"
+          "question": "Which JavaScript feature handles asynchronous operations?",
+          "options": ["Promises", "Loops", "Closures", "Classes"],
+          "answer": "Promises"
         }
       ]
     },
     {
-      "topic": "Scrum Practices",
-      "article": "Scrum empowers teams to be adaptive and iterative. Daily stand-ups, sprint reviews, and retrospectives ensure continuous improvement. A low score in Scrum suggests difficulty in leveraging ceremonies or coaching teams. By practicing effective backlog refinement and sprint planning, you can drastically improve team velocity and morale.",
+      "topic": "DevOps Essentials",
+      "article": "DevOps bridges development and operations. Knowledge of CI/CD, Docker, and cloud deployment enables faster, more reliable releases. Improving DevOps understanding will align delivery speed with industry benchmarks.",
       "quiz": [
         {
-          "question": "How long is a typical Scrum sprint?",
-          "options": ["1 week", "2-4 weeks", "6 weeks", "3 months"],
-          "answer": "2-4 weeks"
+          "question": "What does CI/CD stand for?",
+          "options": ["Continuous Integration / Continuous Deployment", "Code Integration / Code Delivery", "Centralized Infrastructure / Cloud Development", "Continuous Improvement / Cloud Delivery"],
+          "answer": "Continuous Integration / Continuous Deployment"
         },
         {
-          "question": "Which role in Scrum ensures the team follows Scrum practices?",
-          "options": ["Product Owner", "Scrum Master", "Stakeholder", "Tech Lead"],
-          "answer": "Scrum Master"
+          "question": "Which tool is widely used for containerization?",
+          "options": ["Docker", "Nginx", "PostgreSQL", "Terraform"],
+          "answer": "Docker"
         }
       ]
     },
     {
-      "topic": "Technical Awareness for Managers",
-      "article": "In today’s organisations, even managers benefit from basic technical literacy. Understanding APIs, cloud deployments, and modern software stacks helps in effective stakeholder conversations and reduces miscommunication. Without this, managers may struggle to align technical and business goals. Start with 15 minutes daily on cloud concepts or software architecture overviews to build this foundation.",
+      "topic": "Flutter Training",
+      "article": "Flutter is a modern cross-platform framework for building mobile and web apps from a single codebase. With high demand in the organisation, learning Flutter will expand project opportunities. Start by exploring widgets, state management, and hot reload, which make Flutter a powerful UI toolkit.",
       "quiz": [
         {
-          "question": "What does API stand for?",
-          "options": ["Advanced Program Interface", "Application Programming Interface", "Automated Process Integration", "Applied Programming Instruction"],
-          "answer": "Application Programming Interface"
+          "question": "What language is used to develop Flutter apps?",
+          "options": ["Kotlin", "Dart", "JavaScript", "Swift"],
+          "answer": "Dart"
         },
         {
-          "question": "Which of these is a cloud service provider?",
-          "options": ["AWS", "Slack", "Jira", "Figma"],
-          "answer": "AWS"
+          "question": "Which feature allows instant UI updates in Flutter during development?",
+          "options": ["Hot Reload", "Cold Restart", "Fast Compile", "Quick Deploy"],
+          "answer": "Hot Reload"
         }
       ]
     }
   ]
 }
+
 
 ```
 
@@ -199,9 +194,11 @@ A short 30-second article explaining why the skill is important and how to impro
 
 A quiz with at least 2 questions, 4 options each, and the correct answer.
 
+The organisation wants to upskill their resources on flutter.
+
 Notes:
 
-Use a 100-point scale for all scores.
+Use a 1000-point scale for all scores.
 
 If the employee is missing a critical skill, ensure it appears in skillComparison with a score of 0 and add a learning resource for it.
 
