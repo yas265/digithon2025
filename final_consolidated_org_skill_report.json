@@ -1,0 +1,292 @@
+{
+    "total_employees": 1000,
+    "experience_buckets_counts": {
+        "0-2": 128,
+        "11+": 260,
+        "6-10": 395,
+        "3-5": 217
+    },
+    "employees_with_no_extracted_skills": 0,
+    "managerial_skill_counts_total": 947,
+    "technical_skill_counts_total": 10241,
+    "managerial_skills": {
+        "tech lead": 174,
+        "people management": 121,
+        "project management": 117,
+        "cross-functional leadership": 109,
+        "risk management": 104,
+        "stakeholder management": 102,
+        "vendor management": 101,
+        "performance management": 69,
+        "management": 50
+    },
+    "technical_skills_top30": {
+        "azure": 612,
+        "gcp": 611,
+        "aws": 576,
+        "kubernetes administrator": 214,
+        "oracle": 203,
+        "java se": 203,
+        "aws aws": 187,
+        "oracle java se oracle": 187,
+        "graphql": 183,
+        "redis": 181,
+        "backend": 176,
+        "terraform": 175,
+        "docker": 174,
+        "pytorch": 173,
+        "ansible": 173,
+        "nodejs": 172,
+        "data engineering": 167,
+        "kafka": 166,
+        "postgresql": 164,
+        "machine learning": 164,
+        "ci/cd": 164,
+        "mongodb": 161,
+        "kubernetes": 159,
+        "tensorflow": 158,
+        "java": 158,
+        "python": 156,
+        "angular": 153,
+        "spring boot": 152,
+        "react": 146,
+        "rest apis": 141
+    },
+    "organization_skill_scores": [
+        {
+            "skill": "Performance Management",
+            "average_org_score": 7.87,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "OKRs",
+            "average_org_score": 7.63,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "CI/CD",
+            "average_org_score": 7.59,
+            "count_in_organization_top30": 164
+        },
+        {
+            "skill": "REST APIs",
+            "average_org_score": 7.51,
+            "count_in_organization_top30": 141
+        },
+        {
+            "skill": "Terraform",
+            "average_org_score": 7.51,
+            "count_in_organization_top30": 175
+        },
+        {
+            "skill": "Roadmapping",
+            "average_org_score": 7.49,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Stakeholder Management",
+            "average_org_score": 7.41,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "React",
+            "average_org_score": 7.4,
+            "count_in_organization_top30": 146
+        },
+        {
+            "skill": "Node.js",
+            "average_org_score": 7.38,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "L&D",
+            "average_org_score": 7.38,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Azure",
+            "average_org_score": 7.37,
+            "count_in_organization_top30": 612
+        },
+        {
+            "skill": "Kafka",
+            "average_org_score": 7.37,
+            "count_in_organization_top30": 166
+        },
+        {
+            "skill": "Agile",
+            "average_org_score": 7.37,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Vendor Management",
+            "average_org_score": 7.37,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "PyTorch",
+            "average_org_score": 7.35,
+            "count_in_organization_top30": 173
+        },
+        {
+            "skill": "Java",
+            "average_org_score": 7.35,
+            "count_in_organization_top30": 158
+        },
+        {
+            "skill": "Ansible",
+            "average_org_score": 7.34,
+            "count_in_organization_top30": 173
+        },
+        {
+            "skill": "People Management",
+            "average_org_score": 7.34,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "AWS",
+            "average_org_score": 7.33,
+            "count_in_organization_top30": 576
+        },
+        {
+            "skill": "Python",
+            "average_org_score": 7.33,
+            "count_in_organization_top30": 156
+        },
+        {
+            "skill": "Cross-functional Leadership",
+            "average_org_score": 7.32,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Talent Acquisition",
+            "average_org_score": 7.31,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Interviewing",
+            "average_org_score": 7.31,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "MongoDB",
+            "average_org_score": 7.27,
+            "count_in_organization_top30": 161
+        },
+        {
+            "skill": "Employee Relations",
+            "average_org_score": 7.27,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Scrum",
+            "average_org_score": 7.27,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Onboarding",
+            "average_org_score": 7.25,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Kubernetes",
+            "average_org_score": 7.23,
+            "count_in_organization_top30": 159
+        },
+        {
+            "skill": "Spring Boot",
+            "average_org_score": 7.2,
+            "count_in_organization_top30": 152
+        },
+        {
+            "skill": "Angular",
+            "average_org_score": 7.2,
+            "count_in_organization_top30": 153
+        },
+        {
+            "skill": "TensorFlow",
+            "average_org_score": 7.18,
+            "count_in_organization_top30": 158
+        },
+        {
+            "skill": "Machine Learning",
+            "average_org_score": 7.17,
+            "count_in_organization_top30": 164
+        },
+        {
+            "skill": "Data Engineering",
+            "average_org_score": 7.15,
+            "count_in_organization_top30": 167
+        },
+        {
+            "skill": "GCP",
+            "average_org_score": 7.14,
+            "count_in_organization_top30": 611
+        },
+        {
+            "skill": "HRIS",
+            "average_org_score": 7.14,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Microservices",
+            "average_org_score": 7.12,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Compensation & Benefits",
+            "average_org_score": 7.12,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "HR Policies",
+            "average_org_score": 7.08,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Docker",
+            "average_org_score": 7.05,
+            "count_in_organization_top30": 174
+        },
+        {
+            "skill": "Recruitment",
+            "average_org_score": 7.05,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Project Management",
+            "average_org_score": 6.97,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Redis",
+            "average_org_score": 6.96,
+            "count_in_organization_top30": 181
+        },
+        {
+            "skill": "NLP",
+            "average_org_score": 6.95,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "Budgeting",
+            "average_org_score": 6.94,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "PostgreSQL",
+            "average_org_score": 6.9,
+            "count_in_organization_top30": 164
+        },
+        {
+            "skill": "Risk Management",
+            "average_org_score": 6.87,
+            "count_in_organization_top30": null
+        },
+        {
+            "skill": "GraphQL",
+            "average_org_score": 6.84,
+            "count_in_organization_top30": 183
+        }
+    ]
+}
